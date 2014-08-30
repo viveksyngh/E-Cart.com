@@ -1,0 +1,236 @@
+<!-- 
+    Document   : products
+    Created on : 10 Jul, 2012, 9:31:53 PM
+    Author     : Saikat
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+    <style type="text/css">
+        body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#main { background: #FFFACD}
+
+#header {
+    height: 300px;
+    
+background-image:url(header_banner_design.jpg)
+}
+
+#logo {
+    height: 155px;
+    width: 155px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#widgetBar {
+    height: 40px;
+    width: 1000px;
+    float: right;
+    ;
+}
+
+.headerWidget {
+    width: 94px;
+    margin: 15px 2px;
+    font-size: small;
+    float: right;
+    line-height: 25px;
+    background: #00FFFF;
+}
+
+#footer {
+    height: 30px;
+    /*width: 350px;*/
+    clear: left;
+    background: #eee;
+}
+
+#LeftColumn {
+    height: 350px;
+    width: 150px;
+    float: left;
+    background: #FFFFFF;
+}
+
+#RightColumn {
+    height: 1500px;
+    width: 850px;
+    float: left;
+    background: #FFFACD;
+}
+
+.categoryBox {
+    height: 50px;
+    width: 100px;
+    margin: 21px 10px 6px;
+    float: inherit;
+    background: #FFFFFF;
+}
+
+.categoryLabelText {
+    line-height: 150%;
+    font-size: x-large;
+}
+
+#welcomeText {
+
+	text-align: center;
+	text-color: #20B2AA
+}
+    </style>
+    <title>E-Dukan</title>
+</head>
+
+
+
+<body>
+    <div>
+	
+         <a href="E-dukan.html" target="_self"><img src="ecart.jpg" align="left"/></a>
+        <div id="header">
+           
+			<div id="widgetBar">
+			  <div class="headerWidget">
+                             <a href="login1.html" target="_self"> Login</a>
+			</div>
+
+			<div class="headerWidget">
+                             
+                             <a href="registr.html" target="_parent">Sign Up</a>
+			</div>	
+
+		  </div>
+			<img src="shopping cart header.jpg" width="1000" height="208" >
+		</div>
+	
+	
+	<div id="LeftColumn">
+			<div class="categoryBox">
+				<a href="laptops.html" style="text-decoration:none";>
+				<span  class="categoryLabelText" >Laptop</span>
+				</a>
+		
+                 
+                 
+			</div>
+			<div class="categoryBox">
+				<a href="mobiles.html" style="text-decoration:none";>
+				<span class="categoryLabelText" >Mobile</span>
+				</a>
+			</div>
+			<div class="categoryBox">
+				<a href="camera.html" style="text-decoration:none";>
+				<span class="categoryLabelText">Camera</span>
+				</a>
+			</div>
+			<div class="categoryBox">
+				<a href="tablets.html" style="text-decoration:none";>
+				<span class="categoryLabelText">Tablets</span>
+				</a>
+			</div>
+		</div>
+
+		
+	<div id="welcomeText">
+				<p>&nbsp;</p>
+				<p>[Welcome to E-Cart] </p>
+			</div>	
+		<div id="RightColumn">
+                     <form method="post" action="">
+      <table align="center" bgcolor="99FFFF" ><b>
+          <tr bgcolor="99CCFF">
+              <td>IMAGE</td>
+              <td>NAME</td>
+              <td>PRICE</td>
+              <td>QUANTITY</td>
+              <td></td>
+          </tr>
+          <tr>
+          <td><img src="sony cybershot.jpg" height="200" width="200"></td>
+          <td>SONY CYBERSHOT</td>
+          <td>18000</td>
+          <form method="post" action="">
+          <td>
+         <input type="number" name="quantity" min="1" max="10" /></td>
+          <td><input type="submit" value="add to cart" /><input type="hidden" name="pid" value="ama"/> </td>
+          </form>
+      </tr>
+      <tr>
+          <td><img src="canon.jpg" width="200" height="200"></img> </td>
+          <td>CANON IXUS</td>
+          <td>Rs 16000</td>
+           <form method="post" action="">
+          <td>
+          <input type="number" name="quantity" min="1" max="10" /><input type="hidden" name="pid" value="amp"/></td>
+          <td><input type="submit" value="add to cart" /> </td>
+      </form>
+      </tr>
+      <tr>
+          <td><img src="canon.jpg" width="200" height="200"></img> </td>
+          <td>CANON CYBERSHOT</td>
+          <td>Rs 22000</td>
+          <td>
+          <input type="number" name="quantity" min="1" max="10" /><input type="hidden" name="pid" value="xps"/></td>
+          <td><input type="submit" value="add to cart" /> </td>
+          
+      </tr>
+      <tr>
+          <td><img src="olympus.jpg" width="200" height="200"></img> </td>
+          <td>OLYMPUS 10x</td>
+          <td>Rs 13000</td>
+          <td>
+          <input type="number" name="quantity" min="1" max="10" /><input type="hidden" name="pid" value="dv6"/></td>
+          <td><input type="submit" value="add to cart" /> </td>
+          
+      </tr>
+      <tr>
+          <td><img src="fujifilm.jpg" width="200" height="200"></img> </td>
+          <td>FUJIFILM FINEPIX</td>
+          <td>Rs 6000</td>
+           <form method="post" action="">
+          <td>
+          <input type="number" name="quantity" min="1" max="10" /><input type="hidden" name="pid" value="m17"/></td>
+          <td><input type="submit" value="add to cart" /> </td>
+      </form>
+      </tr>
+      <tr>
+          <td><img src="nikon.jpg" width="200" height="200"></img> </td>
+          <td>NIKON COOLPIX</td>
+          <td>Rs 14000</td>
+           <form method="post" action="">
+          <td>
+          <input type="number" name="quantity" min="1" max="10" /><input type="hidden" name="pid" value="lub"/></td>
+          <td><input type="submit" value="add to cart" /> </td>
+      </form>
+      </tr>
+  </b>
+      </table>
+			
+		</div>
+		
+
+		<div id="footer">
+			<p id="footerText">Copyright © E-Dukan.com / All Rights Reserved</p>
+		</div>
+
+
+
+		</div>
+                 
+      
+  
+      
+  
+  </body>
+</html>
